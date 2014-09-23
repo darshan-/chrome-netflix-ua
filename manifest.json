@@ -1,7 +1,7 @@
 {
-  "name": "WebRequest UA test",
-  "version": "1.0",
-  "permissions": ["webRequest", "webRequestBlocking", "http://*/*"],
+  "name": "Netflix UA Spoof for HTML5 Player on Linux",
+  "version": "0.1",
+  "permissions": ["webRequest", "webRequestBlocking", "*://*.netflix.com/*"], //"http://*/*"],
   "background": {
     "scripts": ["background.js"]
   },
